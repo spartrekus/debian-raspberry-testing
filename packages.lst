@@ -1,0 +1,432 @@
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                          Version                      Architecture Description
++++-=============================-============================-============-===============================================================================
+ii  acl                           2.2.52-3+b1                  armhf        Access control list utilities
+ii  adduser                       3.116                        all          add and remove users and groups
+ii  apt                           1.5~rc1                      armhf        commandline package manager
+ii  apt-utils                     1.5~rc1                      armhf        package management related utility programs
+ii  base-files                    10                           armhf        Debian base system miscellaneous files
+ii  base-passwd                   3.5.43                       armhf        Debian base system master password and group files
+ii  bash                          4.4-5                        armhf        GNU Bourne Again SHell
+ii  bsdmainutils                  9.0.12+nmu1                  armhf        collection of more utilities from FreeBSD
+ii  bsdutils                      1:2.29.2-2                   armhf        basic utilities from 4.4BSD-Lite
+ii  bzip2                         1.0.6-8.1                    armhf        high-quality block-sorting file compressor - utilities
+ii  coreutils                     8.26-3                       armhf        GNU core utilities
+ii  cpio                          2.11+dfsg-6                  armhf        GNU cpio -- a program to manage archives of files
+ii  cron                          3.0pl1-128+b1                armhf        process scheduling daemon
+ii  dash                          0.5.8-2.5                    armhf        POSIX-compliant shell
+ii  dbus                          1.11.16+really1.10.22-1      armhf        simple interprocess messaging system (daemon and utilities)
+ii  debconf                       1.5.63                       all          Debian configuration management system
+ii  debconf-i18n                  1.5.63                       all          full internationalization support for debconf
+ii  debian-archive-keyring        2017.5                       all          GnuPG archive keys of the Debian archive
+ii  debianutils                   4.8.2                        armhf        Miscellaneous utilities specific to Debian
+ii  diffutils                     1:3.6-1                      armhf        File comparison utilities
+ii  dmidecode                     3.1-1                        armhf        SMBIOS/DMI table decoder
+ii  dmsetup                       2:1.02.137-2+b1              armhf        Linux Kernel Device Mapper userspace library
+ii  dpkg                          1.18.24                      armhf        Debian package management system
+ii  e2fslibs:armhf                1.43.5-1                     armhf        ext2/ext3/ext4 file system libraries
+ii  e2fsprogs                     1.43.5-1                     armhf        ext2/ext3/ext4 file system utilities
+ii  file                          1:5.31-1                     armhf        Recognize the type of data in a file using "magic" numbers
+ii  findutils                     4.6.0+git+20170729-2         armhf        utilities for finding files--find, xargs
+ii  fontconfig                    2.12.3-0.2                   armhf        generic font configuration library - support binaries
+ii  fontconfig-config             2.12.3-0.2                   all          generic font configuration library - configuration
+ii  fonts-dejavu-core             2.37-1                       all          Vera font family derivate with additional characters
+ii  fonts-droid-fallback          1:6.0.1r16-1.1               all          handheld device font with extensive style and language support (fallback)
+ii  fonts-noto-mono               20161116-1                   all          "No Tofu" monospaced font family with large Unicode coverage
+ii  gcc-6-base:armhf              6.4.0-4                      armhf        GCC, the GNU Compiler Collection (base package)
+ii  gcc-7-base:armhf              7.2.0-1                      armhf        GCC, the GNU Compiler Collection (base package)
+ii  ghostscript                   9.21~dfsg-1                  armhf        interpreter for the PostScript language and for PDF
+ii  gimp                          2.8.20-1                     armhf        GNU Image Manipulation Program
+ii  gimp-data                     2.8.20-1                     all          Data files for GIMP
+ii  gnome-icon-theme              3.12.0-2                     all          GNOME Desktop icon theme
+ii  gnupg                         2.1.18-8                     armhf        GNU privacy guard - a free PGP replacement
+ii  gnupg-agent                   2.1.18-8                     armhf        GNU privacy guard - cryptographic agent
+ii  gpgv                          2.1.18-8                     armhf        GNU privacy guard - signature verification tool
+ii  grep                          3.1-2                        armhf        GNU grep, egrep and fgrep
+ii  gsfonts                       1:8.11+urwcyr1.0.7~pre44-4.3 all          Fonts for the Ghostscript interpreter(s)
+ii  gtk-update-icon-cache         3.22.18-1                    armhf        icon theme caching utility
+ii  gzip                          1.6-5+b1                     armhf        GNU compression utilities
+ii  hicolor-icon-theme            0.15-1                       all          default fallback theme for FreeDesktop.org icon themes
+ii  hostname                      3.18+b1                      armhf        utility to set/show the host name or domain name
+ii  ifupdown                      0.8.24                       armhf        high level tools to configure network interfaces
+ii  init                          1.49                         armhf        metapackage ensuring an init system is installed
+ii  init-system-helpers           1.49                         all          helper tools for all init systems
+ii  iproute2                      4.9.0-1                      armhf        networking and traffic control tools
+ii  iptables                      1.6.1-2                      armhf        administration tools for packet filtering and NAT
+ii  iputils-ping                  3:20161105-1                 armhf        Tools to test the reachability of network hosts
+ii  isc-dhcp-client               4.3.5-3                      armhf        DHCP client for automatically obtaining an IP address
+ii  isc-dhcp-common               4.3.5-3                      armhf        common manpages relevant to all of the isc-dhcp packages
+ii  kmod                          24-1                         armhf        tools for managing Linux kernel modules
+ii  krb5-locales                  1.15.1-2                     all          internationalization support for MIT Kerberos
+ii  libaa1:armhf                  1.4p5-44+b1                  armhf        ASCII art library
+ii  libaacs0:armhf                0.9.0-1                      armhf        free-and-libre implementation of AACS
+ii  libacl1:armhf                 2.2.52-3+b1                  armhf        Access control list shared library
+ii  libamd2:armhf                 1:4.5.5-1                    armhf        approximate minimum degree ordering library for sparse matrices
+ii  libapparmor1:armhf            2.11.0-10                    armhf        changehat AppArmor library
+ii  libapt-inst2.0:armhf          1.5~rc1                      armhf        deb package format runtime library
+ii  libapt-pkg5.0:armhf           1.5~rc1                      armhf        package management runtime library
+ii  libasound2:armhf              1.1.3-5                      armhf        shared library for ALSA applications
+ii  libasound2-data               1.1.3-5                      all          Configuration files and profiles for ALSA drivers
+ii  libassuan0:armhf              2.4.3-3                      armhf        IPC library for the GnuPG components
+ii  libasyncns0:armhf             0.8-6                        armhf        Asynchronous name service query library
+ii  libatk1.0-0:armhf             2.24.0-1                     armhf        ATK accessibility toolkit
+ii  libatk1.0-data                2.24.0-1                     all          Common files for the ATK accessibility toolkit
+ii  libattr1:armhf                1:2.4.47-2+b2                armhf        Extended attribute shared library
+ii  libaudit-common               1:2.7.7-1                    all          Dynamic library for security auditing - common files
+ii  libaudit1:armhf               1:2.7.7-1+b2                 armhf        Dynamic library for security auditing
+ii  libavahi-client3:armhf        0.6.32-2                     armhf        Avahi client library
+ii  libavahi-common-data:armhf    0.6.32-2                     armhf        Avahi common data files
+ii  libavahi-common3:armhf        0.6.32-2                     armhf        Avahi common library
+ii  libavcodec57:armhf            7:3.3.3-3                    armhf        FFmpeg library with de/encoders for audio/video codecs - runtime files
+ii  libavformat57:armhf           7:3.3.3-3                    armhf        FFmpeg library with (de)muxers for multimedia containers - runtime files
+ii  libavutil55:armhf             7:3.3.3-3                    armhf        FFmpeg library with functions for simplifying programming - runtime files
+ii  libbabl-0.1-0:armhf           0.1.28-3                     armhf        Dynamic, any to any, pixel format conversion library
+ii  libbdplus0:armhf              0.1.2-2                      armhf        implementation of BD+ for reading Blu-ray Discs
+ii  libblas-common                3.7.1-1                      armhf        Dependency package for all BLAS implementations
+ii  libblas3                      3.7.1-1                      armhf        Basic Linear Algebra Reference implementations, shared library
+ii  libblkid1:armhf               2.29.2-2                     armhf        block device ID library
+ii  libbluray2:armhf              1:1.0.1.deb1-2               armhf        Blu-ray disc playback support library (shared library)
+ii  libbsd0:armhf                 0.8.6-1                      armhf        utility functions from BSD systems - shared library
+ii  libbz2-1.0:armhf              1.0.6-8.1                    armhf        high-quality block-sorting file compressor library - runtime
+ii  libc-bin                      2.24-14                      armhf        GNU C Library: Binaries
+ii  libc-dev-bin                  2.24-14                      armhf        GNU C Library: Development binaries
+ii  libc6:armhf                   2.24-14                      armhf        GNU C Library: Shared libraries
+ii  libc6-dev:armhf               2.24-14                      armhf        GNU C Library: Development Libraries and Header Files
+ii  libcaca0:armhf                0.99.beta19-2+b2             armhf        colour ASCII art library
+ii  libcairo2:armhf               1.14.10-1                    armhf        Cairo 2D vector graphics library
+ii  libcamd2:armhf                1:4.5.5-1                    armhf        symmetric approximate minimum degree library for sparse matrices
+ii  libcap-ng0:armhf              0.7.7-3+b1                   armhf        An alternate POSIX capabilities library
+ii  libcap2:armhf                 1:2.25-1                     armhf        POSIX 1003.1e capabilities (library)
+ii  libccolamd2:armhf             1:4.5.5-1                    armhf        constrained column approximate library for sparse matrices
+ii  libcholmod3:armhf             1:4.5.5-1                    armhf        sparse Cholesky factorization library for sparse matrices
+ii  libchromaprint1:armhf         1.4.2-1                      armhf        audio fingerprint library
+ii  libcolamd2:armhf              1:4.5.5-1                    armhf        column approximate minimum degree ordering library for sparse matrices
+ii  libcomerr2:armhf              1.43.5-1                     armhf        common error description library
+ii  libcroco3:armhf               0.6.12-1                     armhf        Cascading Style Sheet (CSS) parsing and manipulation toolkit
+ii  libcryptsetup4:armhf          2:1.7.3-4                    armhf        disk encryption support - shared library
+ii  libcups2:armhf                2.2.4-3                      armhf        Common UNIX Printing System(tm) - Core library
+ii  libcupsfilters1:armhf         1.16.4-1                     armhf        OpenPrinting CUPS Filters - Shared library
+ii  libcupsimage2:armhf           2.2.4-3                      armhf        Common UNIX Printing System(tm) - Raster image library
+ii  libdatrie1:armhf              0.2.10-5                     armhf        Double-array trie library
+ii  libdb5.3:armhf                5.3.28-13                    armhf        Berkeley v5.3 Database Libraries [runtime]
+ii  libdbus-1-3:armhf             1.11.16+really1.10.22-1      armhf        simple interprocess messaging system (library)
+ii  libdbus-glib-1-2:armhf        0.108-2                      armhf        simple interprocess messaging system (GLib-based shared library)
+ii  libdebconfclient0:armhf       0.229                        armhf        Debian Configuration Management System (C-implementation library)
+ii  libdevmapper1.02.1:armhf      2:1.02.137-2+b1              armhf        Linux Kernel Device Mapper userspace library
+ii  libdns-export162              1:9.10.3.dfsg.P4-12.5        armhf        Exported DNS Shared Library
+ii  libdrm-amdgpu1:armhf          2.4.82-1                     armhf        Userspace interface to amdgpu-specific kernel DRM services -- runtime
+ii  libdrm-common                 2.4.82-1                     all          Userspace interface to kernel DRM services -- common files
+ii  libdrm-freedreno1:armhf       2.4.82-1                     armhf        Userspace interface to msm/kgsl kernel DRM services -- runtime
+ii  libdrm-nouveau2:armhf         2.4.82-1                     armhf        Userspace interface to nouveau-specific kernel DRM services -- runtime
+ii  libdrm-radeon1:armhf          2.4.82-1                     armhf        Userspace interface to radeon-specific kernel DRM services -- runtime
+ii  libdrm2:armhf                 2.4.82-1                     armhf        Userspace interface to kernel DRM services -- runtime
+ii  libedit2:armhf                3.1-20170329-1               armhf        BSD editline and history libraries
+ii  libelf1:armhf                 0.168-1                      armhf        library to read and write ELF files
+ii  libestr0                      0.1.10-2                     armhf        Helper functions for handling strings (lib)
+ii  libexif12:armhf               0.6.21-2+b2                  armhf        library to parse EXIF files
+ii  libexpat1:armhf               2.2.3-1                      armhf        XML parsing C library - runtime library
+ii  libfastjson4:armhf            0.99.6-1                     armhf        fast json library for C
+ii  libfdisk1:armhf               2.29.2-2                     armhf        fdisk partitioning library
+ii  libffi6:armhf                 3.2.1-6                      armhf        Foreign Function Interface library runtime
+ii  libfile-copy-recursive-perl   0.38-1                       all          Perl extension for recursively copying files and directories
+ii  libflac8:armhf                1.3.2-1                      armhf        Free Lossless Audio Codec - runtime C library
+ii  libfontconfig1:armhf          2.12.3-0.2                   armhf        generic font configuration library - runtime
+ii  libfreetype6:armhf            2.8-0.2                      armhf        FreeType 2 font engine, shared library files
+ii  libgail-common:armhf          2.24.31-2                    armhf        GNOME Accessibility Implementation Library -- common modules
+ii  libgail18:armhf               2.24.31-2                    armhf        GNOME Accessibility Implementation Library -- shared libraries
+ii  libgcc1:armhf                 1:7.2.0-1                    armhf        GCC support library
+ii  libgcrypt20:armhf             1.7.8-2                      armhf        LGPL Crypto library - runtime library
+ii  libgd3:armhf                  2.2.4-2                      armhf        GD Graphics Library
+ii  libgdbm3:armhf                1.8.3-14                     armhf        GNU dbm database routines (runtime version)
+ii  libgdk-pixbuf2.0-0:armhf      2.36.5-2                     armhf        GDK Pixbuf library
+ii  libgdk-pixbuf2.0-common       2.36.5-2                     all          GDK Pixbuf library - data files
+ii  libgegl-0.3-0:armhf           0.3.18-3                     armhf        Generic Graphics Library
+ii  libgfortran3:armhf            6.4.0-4                      armhf        Runtime library for GNU Fortran applications
+ii  libgimp2.0                    2.8.20-1                     armhf        Libraries for the GNU Image Manipulation Program
+ii  libgl1-mesa-dri:armhf         13.0.6-1+b2                  armhf        free implementation of the OpenGL API -- DRI modules
+ii  libgl1-mesa-glx:armhf         13.0.6-1+b2                  armhf        free implementation of the OpenGL API -- GLX runtime
+ii  libglapi-mesa:armhf           13.0.6-1+b2                  armhf        free implementation of the GL API -- shared library
+ii  libglib2.0-0:armhf            2.53.4-3                     armhf        GLib library of C routines
+ii  libglib2.0-data               2.53.4-3                     all          Common files for GLib library
+ii  libgme0:armhf                 0.6.1-1                      armhf        Playback library for video game music files - shared library
+ii  libgmp10:armhf                2:6.1.2+dfsg-1               armhf        Multiprecision arithmetic library
+ii  libgnutls30:armhf             3.5.15-2                     armhf        GNU TLS library - main runtime library
+ii  libgomp1:armhf                7.2.0-1                      armhf        GCC OpenMP (GOMP) support library
+ii  libgpg-error0:armhf           1.27-3                       armhf        library for common error values and messages in GnuPG components
+ii  libgphoto2-6:armhf            2.5.14-1                     armhf        gphoto2 digital camera library
+ii  libgphoto2-l10n               2.5.14-1                     all          gphoto2 digital camera library - localized messages
+ii  libgphoto2-port12:armhf       2.5.14-1                     armhf        gphoto2 digital camera port library
+ii  libgpm2:armhf                 1.20.4-6.2+b1                armhf        General Purpose Mouse - shared library
+ii  libgraphite2-3:armhf          1.3.10-2                     armhf        Font rendering engine for Complex Scripts -- library
+ii  libgs9:armhf                  9.21~dfsg-1                  armhf        interpreter for the PostScript language and for PDF - Library
+ii  libgs9-common                 9.21~dfsg-1                  all          interpreter for the PostScript language and for PDF - common files
+ii  libgsm1:armhf                 1.0.13-4+b2                  armhf        Shared libraries for GSM speech compressor
+ii  libgssapi-krb5-2:armhf        1.15.1-2                     armhf        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgtk2.0-0:armhf             2.24.31-2                    armhf        GTK+ graphical user interface library
+ii  libgtk2.0-bin                 2.24.31-2                    armhf        programs for the GTK+ graphical user interface library
+ii  libgtk2.0-common              2.24.31-2                    all          common files for the GTK+ graphical user interface library
+ii  libgudev-1.0-0:armhf          230-3                        armhf        GObject-based wrapper library for libudev
+ii  libharfbuzz0b:armhf           1.4.2-1                      armhf        OpenType text shaping engine (shared library)
+ii  libhogweed4:armhf             3.3-1+b1                     armhf        low level cryptographic library (public-key cryptos)
+ii  libice6:armhf                 2:1.0.9-2                    armhf        X11 Inter-Client Exchange library
+ii  libicu57:armhf                57.1-6                       armhf        International Components for Unicode
+ii  libidn11:armhf                1.33-1                       armhf        GNU Libidn library, implementation of IETF IDN specifications
+ii  libidn2-0:armhf               2.0.2-3                      armhf        Internationalized domain names (IDNA2008/TR46) library
+ii  libieee1284-3:armhf           0.2.11-13                    armhf        cross-platform library for parallel port access
+ii  libijs-0.35:armhf             0.35-12                      armhf        IJS raster image transport protocol: shared library
+ii  libilmbase12:armhf            2.2.0-12                     armhf        several utility libraries from ILM used by OpenEXR
+ii  libip4tc0:armhf               1.6.1-2                      armhf        netfilter libip4tc library
+ii  libip6tc0:armhf               1.6.1-2                      armhf        netfilter libip6tc library
+ii  libiptc0:armhf                1.6.1-2                      armhf        netfilter libiptc library
+ii  libisc-export160              1:9.10.3.dfsg.P4-12.5        armhf        Exported ISC Shared Library
+ii  libjbig0:armhf                2.1-3.1+b2                   armhf        JBIGkit libraries
+ii  libjbig2dec0:armhf            0.13-4.1                     armhf        JBIG2 decoder library - shared libraries
+ii  libjpeg62-turbo:armhf         1:1.5.2-2                    armhf        libjpeg-turbo JPEG runtime library
+ii  libjson-glib-1.0-0:armhf      1.2.8-1                      armhf        GLib JSON manipulation library
+ii  libjson-glib-1.0-common       1.2.8-1                      all          GLib JSON manipulation library (common files)
+ii  libk5crypto3:armhf            1.15.1-2                     armhf        MIT Kerberos runtime libraries - Crypto Library
+ii  libkeyutils1:armhf            1.5.9-9                      armhf        Linux Key Management Utilities (library)
+ii  libkmod2:armhf                24-1                         armhf        libkmod shared library
+ii  libkrb5-3:armhf               1.15.1-2                     armhf        MIT Kerberos runtime libraries
+ii  libkrb5support0:armhf         1.15.1-2                     armhf        MIT Kerberos runtime libraries - Support library
+ii  libksba8:armhf                1.3.5-2                      armhf        X.509 and CMS support library
+ii  liblapack3                    3.7.1-1                      armhf        Library of linear algebra routines 3 - shared version
+ii  liblcms2-2:armhf              2.8-4                        armhf        Little CMS 2 color management library
+ii  libldap-2.4-2:armhf           2.4.45+dfsg-1                armhf        OpenLDAP libraries
+ii  libldap-common                2.4.45+dfsg-1                all          OpenLDAP common files for libraries
+ii  libllvm3.9:armhf              1:3.9.1-10                   armhf        Modular compiler and toolchain technologies, runtime library
+ii  liblocale-gettext-perl        1.07-3+b3                    armhf        module using libc functions for internationalization in Perl
+ii  liblogging-stdlog0:armhf      1.0.6-1                      armhf        easy to use and lightweight logging library
+ii  liblognorm5:armhf             2.0.3-1                      armhf        log normalizing library
+ii  libltdl7:armhf                2.4.6-2                      armhf        System independent dlopen wrapper for GNU libtool
+ii  liblz4-1:armhf                0.0~r131-2+b1                armhf        Fast LZ compression algorithm library - runtime
+ii  liblzma5:armhf                5.2.2-1.3                    armhf        XZ-format compression library
+ii  libmagic-mgc                  1:5.31-1                     armhf        File type determination library using "magic" numbers (compiled magic file)
+ii  libmagic1:armhf               1:5.31-1                     armhf        Recognize the type of data in a file using "magic" numbers - library
+ii  libmetis5:armhf               5.1.0.dfsg-5+b2              armhf        Serial Graph Partitioning and Fill-reducing Matrix Ordering
+ii  libmng1:armhf                 1.0.10+dfsg-3.1+b5           armhf        Multiple-image Network Graphics library
+ii  libmnl0:armhf                 1.0.4-2                      armhf        minimalistic Netlink communication library
+ii  libmount1:armhf               2.29.2-2                     armhf        device mounting library
+ii  libmp3lame0:armhf             3.99.5+repack1-9+b2          armhf        MP3 encoding library
+ii  libmpg123-0:armhf             1.25.6-1                     armhf        MPEG layer 1/2/3 audio decoder (shared library)
+ii  libncurses5:armhf             6.0+20170715-2               armhf        shared libraries for terminal handling
+ii  libncurses5-dev:armhf         6.0+20170715-2               armhf        developer's libraries for ncurses
+ii  libncursesw5:armhf            6.0+20170715-2               armhf        shared libraries for terminal handling (wide character support)
+ii  libnetfilter-conntrack3:armhf 1.0.6-2                      armhf        Netfilter netlink-conntrack library
+ii  libnettle6:armhf              3.3-1+b1                     armhf        low level cryptographic library (symmetric and one-way cryptos)
+ii  libnewt0.52:armhf             0.52.20-1+b1                 armhf        Not Erik's Windowing Toolkit - text mode windowing with slang
+ii  libnfnetlink0:armhf           1.0.1-3+b1                   armhf        Netfilter netlink library
+ii  libnl-3-200:armhf             3.2.27-2                     armhf        library for dealing with netlink sockets
+ii  libnl-genl-3-200:armhf        3.2.27-2                     armhf        library for dealing with netlink sockets - generic netlink
+ii  libnpth0:armhf                1.5-2                        armhf        replacement for GNU Pth using system threads
+ii  libnspr4:armhf                2:4.16-1                     armhf        NetScape Portable Runtime Library
+ii  libnss3:armhf                 2:3.31-1                     armhf        Network Security Service libraries
+ii  libogg0:armhf                 1.3.2-1+b1                   armhf        Ogg bitstream library
+ii  libopenexr22:armhf            2.2.0-11+b1                  armhf        runtime files for the OpenEXR image library
+ii  libopenjp2-7:armhf            2.1.2-1.3                    armhf        JPEG 2000 image compression/decompression library
+ii  libopenmpt0:armhf             0.2.8760~beta27-1            armhf        module music library based on OpenMPT -- shared library
+ii  libopus0:armhf                1.2~alpha2-1                 armhf        Opus codec runtime library
+ii  libp11-kit0:armhf             0.23.7-3                     armhf        library for loading and coordinating access to PKCS#11 modules - runtime
+ii  libpam-modules:armhf          1.1.8-3.6                    armhf        Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin            1.1.8-3.6                    armhf        Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-runtime                1.1.8-3.6                    all          Runtime support for the PAM library
+ii  libpam-systemd:armhf          234-2.3                      armhf        system and service manager - PAM module
+ii  libpam0g:armhf                1.1.8-3.6                    armhf        Pluggable Authentication Modules library
+ii  libpango-1.0-0:armhf          1.40.6-1                     armhf        Layout and rendering of internationalized text
+ii  libpangocairo-1.0-0:armhf     1.40.6-1                     armhf        Layout and rendering of internationalized text
+ii  libpangoft2-1.0-0:armhf       1.40.6-1                     armhf        Layout and rendering of internationalized text
+ii  libpaper-utils                1.1.24+nmu5                  armhf        library for handling paper characteristics (utilities)
+ii  libpaper1:armhf               1.1.24+nmu5                  armhf        library for handling paper characteristics
+ii  libpcre3:armhf                2:8.39-4                     armhf        Old Perl 5 Compatible Regular Expression Library - runtime files
+ii  libpcsclite1:armhf            1.8.22-1                     armhf        Middleware to access a smart card using PC/SC (library)
+ii  libperl5.26:armhf             5.26.0-5                     armhf        shared Perl library
+ii  libpipeline1:armhf            1.4.2-1                      armhf        pipeline manipulation library
+ii  libpixman-1-0:armhf           0.34.0-1                     armhf        pixel-manipulation library for X and cairo
+ii  libpng16-16:armhf             1.6.31-1                     armhf        PNG library - runtime (version 1.6)
+ii  libpoppler-glib8:armhf        0.48.0-2                     armhf        PDF rendering library (GLib-based shared library)
+ii  libpoppler64:armhf            0.48.0-2                     armhf        PDF rendering library
+ii  libpopt0:armhf                1.16-10+b2                   armhf        lib for parsing cmdline parameters
+ii  libprocps6:armhf              2:3.3.12-3                   armhf        library for accessing process information from /proc
+ii  libpsl5:armhf                 0.18.0-2                     armhf        Library for Public Suffix List (shared libraries)
+ii  libpulse0:armhf               10.0-2                       armhf        PulseAudio client libraries
+ii  libpython-stdlib:armhf        2.7.13-2                     armhf        interactive high-level object-oriented language (default python version)
+ii  libpython2.7-minimal:armhf    2.7.13-2                     armhf        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:armhf     2.7.13-2                     armhf        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libraw16:armhf                0.18.2-2                     armhf        raw image decoder library
+ii  libreadline7:armhf            7.0-3                        armhf        GNU readline and history libraries, run-time libraries
+ii  librsvg2-2:armhf              2.40.18-1                    armhf        SAX-based renderer library for SVG files (runtime)
+ii  librsvg2-common:armhf         2.40.18-1                    armhf        SAX-based renderer library for SVG files (extra runtime)
+ii  libsane:armhf                 1.0.25-4.1                   armhf        API library for scanners
+ii  libsane-common                1.0.25-4.1                   all          API library for scanners -- documentation and support files
+ii  libsane-extras:armhf          1.0.22.4                     armhf        API library for scanners -- extra backends
+ii  libsane-extras-common         1.0.22.4                     armhf        API library for scanners -- documentation and support files
+ii  libsasl2-2:armhf              2.1.27~101-g0780600+dfsg-3   armhf        Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules:armhf        2.1.27~101-g0780600+dfsg-3   armhf        Cyrus SASL - pluggable authentication modules
+ii  libsasl2-modules-db:armhf     2.1.27~101-g0780600+dfsg-3   armhf        Cyrus SASL - pluggable authentication modules (DB)
+ii  libsdl1.2debian:armhf         1.2.15+dfsg2-0.1             armhf        Simple DirectMedia Layer
+ii  libseccomp2:armhf             2.3.1-2.1                    armhf        high level interface to Linux seccomp filter
+ii  libselinux1:armhf             2.6-3+b2                     armhf        SELinux runtime shared libraries
+ii  libsemanage-common            2.6-2                        all          Common files for SELinux policy management libraries
+ii  libsemanage1:armhf            2.6-2+b1                     armhf        SELinux policy management library
+ii  libsensors4:armhf             1:3.4.0-4                    armhf        library to read temperature/voltage/fan sensors
+ii  libsepol1:armhf               2.6-2                        armhf        SELinux library for manipulating binary security policies
+ii  libshine3:armhf               3.1.1-1                      armhf        Fixed-point MP3 encoding library - runtime files
+ii  libslang2:armhf               2.3.1a-1                     armhf        S-Lang programming library - runtime version
+ii  libsm6:armhf                  2:1.2.2-1+b3                 armhf        X11 Session Management library
+ii  libsmartcols1:armhf           2.29.2-2                     armhf        smart column output alignment library
+ii  libsnappy1v5:armhf            1.1.6-4                      armhf        fast compression/decompression library
+ii  libsndfile1:armhf             1.0.28-4                     armhf        Library for reading/writing audio files
+ii  libsoxr0:armhf                0.1.2-2                      armhf        High quality 1D sample-rate conversion library
+ii  libspeex1:armhf               1.2~rc1.2-1+b2               armhf        The Speex codec runtime library
+ii  libsqlite3-0:armhf            3.19.3-3                     armhf        SQLite 3 shared library
+ii  libss2:armhf                  1.43.5-1                     armhf        command-line interface parsing library
+ii  libssh-gcrypt-4:armhf         0.7.5-1                      armhf        tiny C SSH library (gcrypt flavor)
+ii  libssl1.0.2:armhf             1.0.2l-2                     armhf        Secure Sockets Layer toolkit - shared libraries
+ii  libssl1.1:armhf               1.1.0f-4                     armhf        Secure Sockets Layer toolkit - shared libraries
+ii  libstdc++6:armhf              7.2.0-1                      armhf        GNU Standard C++ Library v3
+ii  libsuitesparseconfig4:armhf   1:4.5.5-1                    armhf        configuration routines for all SuiteSparse modules
+ii  libswresample2:armhf          7:3.3.3-3                    armhf        FFmpeg library for audio resampling, rematrixing etc. - runtime files
+ii  libswscale4:armhf             7:3.3.3-3                    armhf        FFmpeg library for image scaling and various conversions - runtime files
+ii  libsystemd0:armhf             234-2.3                      armhf        systemd utility library
+ii  libtasn1-6:armhf              4.12-2.1                     armhf        Manage ASN.1 structures (runtime)
+ii  libtext-charwidth-perl        0.04-7.1                     armhf        get display widths of characters on the terminal
+ii  libtext-iconv-perl            1.7-5+b6                     armhf        converts between character sets in Perl
+ii  libtext-wrapi18n-perl         0.06-7.1                     all          internationalized substitute of Text::Wrap
+ii  libthai-data                  0.1.26-3                     all          Data files for Thai language support library
+ii  libthai0:armhf                0.1.26-3                     armhf        Thai language support library
+ii  libtheora0:armhf              1.1.1+dfsg.1-14+b1           armhf        Theora Video Compression Codec
+ii  libtiff5:armhf                4.0.8-4                      armhf        Tag Image File Format (TIFF) library
+ii  libtinfo-dev:armhf            6.0+20170715-2               armhf        developer's library for the low-level terminfo library
+ii  libtinfo5:armhf               6.0+20170715-2               armhf        shared low-level terminfo library for terminal handling
+ii  libtwolame0:armhf             0.3.13-2                     armhf        MPEG Audio Layer 2 encoding library
+ii  libtxc-dxtn-s2tc:armhf        1.0+git20151227-2            armhf        Texture compression library for Mesa
+ii  libudev1:armhf                234-2.3                      armhf        libudev shared library
+ii  libumfpack5:armhf             1:4.5.5-1                    armhf        sparse LU factorization library
+ii  libunistring2:armhf           0.9.7-2                      armhf        Unicode string library for C
+ii  libusb-1.0-0:armhf            2:1.0.21-2                   armhf        userspace USB programming library
+ii  libustr-1.0-1:armhf           1.0.4-6                      armhf        Micro string library: shared library
+ii  libuuid1:armhf                2.29.2-2                     armhf        Universally Unique ID library
+ii  libva-drm1:armhf              1.8.3-1                      armhf        Video Acceleration (VA) API for Linux -- DRM runtime
+ii  libva-x11-1:armhf             1.8.3-1                      armhf        Video Acceleration (VA) API for Linux -- X11 runtime
+ii  libva1:armhf                  1.8.3-1                      armhf        Video Acceleration (VA) API for Linux -- runtime
+ii  libvdpau-va-gl1:armhf         0.4.2-1                      armhf        VDPAU driver with OpenGL/VAAPI backend
+ii  libvdpau1:armhf               1.1.1-6                      armhf        Video Decode and Presentation API for Unix (libraries)
+ii  libvorbis0a:armhf             1.3.5-4                      armhf        decoder library for Vorbis General Audio Compression Codec
+ii  libvorbisenc2:armhf           1.3.5-4                      armhf        encoder library for Vorbis General Audio Compression Codec
+ii  libvorbisfile3:armhf          1.3.5-4                      armhf        high-level API for Vorbis General Audio Compression Codec
+ii  libvpx4:armhf                 1.6.1-3                      armhf        VP8 and VP9 video codec (shared library)
+ii  libwavpack1:armhf             5.1.0-2                      armhf        audio codec (lossy and lossless) - library
+ii  libwebp6:armhf                0.6.0-3                      armhf        Lossy compression of digital photographic images.
+ii  libwebpmux3:armhf             0.6.0-3                      armhf        Lossy compression of digital photographic images.
+ii  libwmf0.2-7:armhf             0.2.8.4-11                   armhf        Windows metafile conversion library
+ii  libwrap0:armhf                7.6.q-26                     armhf        Wietse Venema's TCP wrappers library
+ii  libx11-6:armhf                2:1.6.4-3                    armhf        X11 client-side library
+ii  libx11-data                   2:1.6.4-3                    all          X11 client-side library
+ii  libx11-xcb1:armhf             2:1.6.4-3                    armhf        Xlib/XCB interface library
+ii  libx264-148:armhf             2:0.148.2795+gitaaa9aa8-1    armhf        x264 video coding library
+ii  libx265-130:armhf             2.5-2                        armhf        H.265/HEVC video stream encoder (shared library)
+ii  libxapian30:armhf             1.4.4-2                      armhf        Search engine library
+ii  libxau6:armhf                 1:1.0.8-1+b2                 armhf        X11 authorisation library
+ii  libxcb-dri2-0:armhf           1.12-1                       armhf        X C Binding, dri2 extension
+ii  libxcb-dri3-0:armhf           1.12-1                       armhf        X C Binding, dri3 extension
+ii  libxcb-glx0:armhf             1.12-1                       armhf        X C Binding, glx extension
+ii  libxcb-present0:armhf         1.12-1                       armhf        X C Binding, present extension
+ii  libxcb-render0:armhf          1.12-1                       armhf        X C Binding, render extension
+ii  libxcb-shm0:armhf             1.12-1                       armhf        X C Binding, shm extension
+ii  libxcb-sync1:armhf            1.12-1                       armhf        X C Binding, sync extension
+ii  libxcb1:armhf                 1.12-1                       armhf        X C Binding
+ii  libxcomposite1:armhf          1:0.4.4-2                    armhf        X11 Composite extension library
+ii  libxcursor1:armhf             1:1.1.14-1+b4                armhf        X cursor management library
+ii  libxdamage1:armhf             1:1.1.4-3                    armhf        X11 damaged region extension library
+ii  libxdmcp6:armhf               1:1.1.2-3                    armhf        X11 Display Manager Control Protocol library
+ii  libxext6:armhf                2:1.3.3-1+b2                 armhf        X11 miscellaneous extension library
+ii  libxfixes3:armhf              1:5.0.3-1                    armhf        X11 miscellaneous 'fixes' extension library
+ii  libxi6:armhf                  2:1.7.9-1                    armhf        X11 Input extension library
+ii  libxinerama1:armhf            2:1.1.3-1+b3                 armhf        X11 Xinerama extension library
+ii  libxml2:armhf                 2.9.4+dfsg1-3.1              armhf        GNOME XML library
+ii  libxmu6:armhf                 2:1.1.2-2                    armhf        X11 miscellaneous utility library
+ii  libxmuu1:armhf                2:1.1.2-2                    armhf        X11 miscellaneous micro-utility library
+ii  libxpm4:armhf                 1:3.5.12-1                   armhf        X11 pixmap library
+ii  libxrandr2:armhf              2:1.5.1-1                    armhf        X11 RandR extension library
+ii  libxrender1:armhf             1:0.9.10-1                   armhf        X Rendering Extension client library
+ii  libxshmfence1:armhf           1.2-1+b2                     armhf        X shared memory fences - shared library
+ii  libxt6:armhf                  1:1.1.5-1                    armhf        X11 toolkit intrinsics library
+ii  libxtables12:armhf            1.6.1-2                      armhf        netfilter xtables library
+ii  libxtst6:armhf                2:1.2.3-1                    armhf        X11 Testing -- Record extension library
+ii  libxvidcore4:armhf            2:1.3.4-1+b2                 armhf        Open source MPEG-4 video codec (library)
+ii  libxxf86vm1:armhf             1:1.1.4-1+b2                 armhf        X11 XFree86 video mode extension library
+ii  libzvbi-common                0.2.35-13                    all          Vertical Blanking Interval decoder (VBI) - common files
+ii  libzvbi0:armhf                0.2.35-13                    armhf        Vertical Blanking Interval decoder (VBI) - runtime files
+ii  linux-libc-dev:armhf          4.12.6-1                     armhf        Linux support headers for userspace development
+ii  login                         1:4.4-4.1                    armhf        system login tools
+ii  logrotate                     3.11.0-0.1                   armhf        Log rotation utility
+ii  lsb-base                      9.20170808                   all          Linux Standard Base init script functionality
+ii  manpages                      4.12-2                       all          Manual pages about using a GNU/Linux system
+ii  manpages-dev                  4.12-2                       all          Manual pages about using GNU/Linux for development
+ii  mawk                          1.3.3-17+b3                  armhf        a pattern scanning and text processing language
+ii  mesa-va-drivers:armhf         13.0.6-1+b2                  armhf        Mesa VA-API video acceleration drivers
+ii  mesa-vdpau-drivers:armhf      13.0.6-1+b2                  armhf        Mesa VDPAU video acceleration drivers
+ii  mime-support                  3.60                         all          MIME files 'mime.types' & 'mailcap', and support programs
+ii  mount                         2.29.2-2                     armhf        tools for mounting and manipulating filesystems
+ii  multiarch-support             2.24-14                      armhf        Transitional package to ensure multiarch compatibility
+ii  nano                          2.8.6-1                      armhf        small, friendly text editor inspired by Pico
+ii  ncurses-base                  6.0+20170715-2               all          basic terminal type definitions
+ii  ncurses-bin                   6.0+20170715-2               armhf        terminal-related programs and man pages
+ii  ncurses-term                  6.0+20170715-2               all          additional terminal type definitions
+ii  netbase                       5.4                          all          Basic TCP/IP networking system
+ii  openssh-client                1:7.5p1-5                    armhf        secure shell (SSH) client, for secure access to remote machines
+ii  openssh-server                1:7.5p1-5                    armhf        secure shell (SSH) server, for secure access from remote machines
+ii  openssh-sftp-server           1:7.5p1-5                    armhf        secure shell (SSH) sftp server module, for SFTP access from remote machines
+ii  passwd                        1:4.4-4.1                    armhf        change and administer password and group data
+ii  perl                          5.26.0-5                     armhf        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                     5.26.0-5                     armhf        minimal Perl system
+ii  perl-modules-5.26             5.26.0-5                     all          Core Perl modules
+ii  pinentry-curses               1.0.0-2                      armhf        curses-based PIN or pass-phrase entry dialog for GnuPG
+ii  poppler-data                  0.4.8-1                      all          encoding data for the poppler PDF rendering library
+ii  procps                        2:3.3.12-3                   armhf        /proc file system utilities
+ii  python                        2.7.13-2                     armhf        interactive high-level object-oriented language (default version)
+ii  python-cairo                  1.8.8-2.2                    armhf        Python bindings for the Cairo vector graphics library
+ii  python-gobject-2              2.28.6-13                    armhf        deprecated static Python bindings for the GObject library
+ii  python-gtk2                   2.24.0-5.1                   armhf        Python bindings for the GTK+ widget set
+ii  python-minimal                2.7.13-2                     armhf        minimal subset of the Python language (default version)
+ii  python-numpy                  1:1.12.1-3+b2                armhf        Numerical Python adds a fast array facility to the Python language
+ii  python2.7                     2.7.13-2                     armhf        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-minimal             2.7.13-2                     armhf        Minimal subset of the Python language (version 2.7)
+ii  readline-common               7.0-3                        all          GNU readline and history libraries, common files
+ii  rename                        0.20-4                       all          Perl extension for renaming multiple files
+ii  rsyslog                       8.28.0-1                     armhf        reliable system and kernel logging daemon
+ii  sane                          1.0.14-12                    armhf        scanner graphical frontends
+ii  sane-utils                    1.0.25-4.1                   armhf        API library for scanners -- utilities
+ii  sed                           4.4-1                        armhf        GNU stream editor for filtering/transforming text
+ii  sensible-utils                0.0.10                       all          Utilities for sensible alternative selection
+ii  sgml-base                     1.29                         all          SGML infrastructure and SGML catalog file support
+ii  shared-mime-info              1.8-1                        armhf        FreeDesktop.org shared MIME database and spec
+ii  ssh                           1:7.5p1-5                    all          secure shell client and server (metapackage)
+ii  systemd                       234-2.3                      armhf        system and service manager
+ii  systemd-sysv                  234-2.3                      armhf        system and service manager - SysV links
+ii  sysvinit-utils                2.88dsf-59.9                 armhf        System-V-like utilities
+ii  tar                           1.29b-2                      armhf        GNU version of the tar archiving utility
+ii  tasksel                       3.39                         all          tool for selecting tasks for installation on Debian systems
+ii  tasksel-data                  3.39                         all          official tasks used for installation of Debian systems
+ii  tcpd                          7.6.q-26                     armhf        Wietse Venema's TCP wrapper utilities
+ii  tzdata                        2017b-2                      all          time zone and daylight-saving time data
+ii  ucf                           3.0036                       all          Update Configuration File(s): preserve user changes to config files
+ii  udev                          234-2.3                      armhf        /dev/ and hotplug management daemon
+ii  update-inetd                  4.44                         all          inetd configuration file updater
+ii  util-linux                    2.29.2-2                     armhf        miscellaneous system utilities
+ii  va-driver-all:armhf           1.8.3-1                      armhf        Video Acceleration (VA) API -- driver metapackage
+ii  vdpau-driver-all:armhf        1.1.1-6                      armhf        Video Decode and Presentation API for Unix (driver metapackage)
+ii  vim-common                    2:8.0.0197-5                 all          Vi IMproved - Common files
+ii  vim-tiny                      2:8.0.0197-5+b1              armhf        Vi IMproved - enhanced vi editor - compact version
+ii  wget                          1.19.1-4                     armhf        retrieves files from the web
+ii  whiptail                      0.52.20-1+b1                 armhf        Displays user-friendly dialog boxes from shell scripts
+ii  wpasupplicant                 2:2.4-1                      armhf        client support for WPA and WPA2 (IEEE 802.11i)
+ii  x11-common                    1:7.7+19                     all          X Window System (X.Org) infrastructure
+ii  xauth                         1:1.0.9-1+b2                 armhf        X authentication utility
+ii  xdg-user-dirs                 0.15-3                       armhf        tool to manage well known user directories
+ii  xml-core                      0.17                         all          XML infrastructure and XML catalog file support
+ii  xxd                           2:8.0.0197-5+b1              armhf        tool to make (or reverse) a hex dump
+ii  xz-utils                      5.2.2-1.3                    armhf        XZ-format compression utilities
+ii  zlib1g:armhf                  1:1.2.8.dfsg-5               armhf        compression library - runtime
